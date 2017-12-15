@@ -1,0 +1,1 @@
+D:\deviceConnectCLI\MobileLabs.DeviceConnect.Cli.exe 10.4.3.113 pyramid@pyramid.com deviceconnect -device "samsung_4d0039a157466043" -retain -install "deviceControl" -autoconnect "deviceControl"

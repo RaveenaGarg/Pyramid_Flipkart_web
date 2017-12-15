@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<project basedir="." default="Launcher" name="Automation">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+	<property name="build" value="Deploy"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+	
+    <path id="classpath">
+		<pathelement location="bin"/>
+        <fileset dir="jars" includes="**/*.jar"/>
+    </path>
+	<target name="e">
+		<echo message="${ant.project.name}"/>
+	</target>
+	
+	<target name="clean">
+        <delete dir="bin"/>
+    </target>
+	
+	<target name="compile" depends="clean">
+        <mkdir dir="bin"/>
+        <javac srcdir="src" destdir="bin" classpathref="classpath" />
+    </target>
+	
+	<target name="jar" depends="compile">
+        <mkdir dir="${build}"/>
+        <jar destfile="${build}/${ant.project.name}.jar" basedir="bin">
+            <zipgroupfileset dir="jars" includes="**/*.jar"/>
+            <manifest>
+                <attribute name="Main-Class" value="Execution.Launcher"/>
+            </manifest>
+        </jar>
+    </target>
+	
+	<target name="run" depends="jar">
+        <java jar="${build}/${ant.project.name}.jar" fork="true"/>
+    </target>
+	
+	<target name="Launcher" depends="compile">
+        <java classname="Execution.Launcher" failonerror="true" fork="yes">
+            <classpath refid="classpath"/>
+        </java>
+    </target>
+	
+	<target name="cj">
+    <jar destfile="out.jar">
+        <zipgroupfileset dir="jars" includes="*.jar"/>
+    </jar>
+</target>
+
+</project>

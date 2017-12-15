@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestScript.TestSuite.Flipkart.FlipkartSearchValiditem_AUT23_1_chrome"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="93.676">
+  <properties />
+  
+  
+            <testcase name="Step1" time="93.676" classname="TestScript.Flipkart.FlipkartSearchValiditem_AUT23" />
+      
+</testsuite>

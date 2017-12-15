@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuiteFlipkart" duration-ms="3896" started-at="2017-11-29T07:44:43Z" finished-at="2017-11-29T07:44:47Z">
+    <groups>
+    </groups>
+    <test name="TestScript.TestSuite.Flipkart.FlipkartSearchInvaliditem_AUT24_1_chrome" duration-ms="3896" started-at="2017-11-29T07:44:43Z" finished-at="2017-11-29T07:44:47Z">
+      <class name="TestScript.Flipkart.FlipkartSearchInvaliditem_AUT24">
+        <test-method status="PASS" signature="setdriver(java.lang.String, org.testng.ITestContext)[pri:0, instance:TestScript.Flipkart.FlipkartSearchInvaliditem_AUT24@71a8adcf]" name="setdriver" is-config="true" duration-ms="3080" started-at="2017-11-29T13:14:43Z" finished-at="2017-11-29T13:14:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ef3f321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setdriver -->
+        <test-method status="FAIL" signature="Step1(org.testng.ITestContext)[pri:0, instance:TestScript.Flipkart.FlipkartSearchInvaliditem_AUT24@71a8adcf]" name="Step1" duration-ms="1" started-at="2017-11-29T13:14:46Z" finished-at="2017-11-29T13:14:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ef3f321]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.ClassCastException">
+            <message>
+              <![CDATA[core.Action$Browser cannot be cast to org.openqa.selenium.TakesScreenshot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ClassCastException: core.Action$Browser cannot be cast to org.openqa.selenium.TakesScreenshot
+	at TestScript.Flipkart.FlipkartSearchInvaliditem_AUT24.Step1(FlipkartSearchInvaliditem_AUT24.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ClassCastException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Step1 -->
+        <test-method status="PASS" signature="Quit(org.testng.ITestContext)[pri:0, instance:TestScript.Flipkart.FlipkartSearchInvaliditem_AUT24@71a8adcf]" name="Quit" is-config="true" duration-ms="806" started-at="2017-11-29T13:14:46Z" finished-at="2017-11-29T13:14:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ef3f321]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Quit -->
+      </class> <!-- TestScript.Flipkart.FlipkartSearchInvaliditem_AUT24 -->
+    </test> <!-- TestScript.TestSuite.Flipkart.FlipkartSearchInvaliditem_AUT24_1_chrome -->
+  </suite> <!-- TestSuiteFlipkart -->
+</testng-results>

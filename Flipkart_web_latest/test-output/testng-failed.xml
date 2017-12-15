@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [TestSuiteFlipkart]" parallel="tests">
+  <parameter name="Browser" value="Chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="TestScript.TestSuite.Flipkart.FlipkartSearchInvaliditem_AUT24_1_chrome(failed)" parallel="tests">
+    <parameter name="iteration" value="1"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="TestScript.Flipkart.FlipkartSearchInvaliditem_AUT24">
+        <methods>
+          <include name="Quit"/>
+          <include name="Step1" invocation-numbers="0"/>
+          <include name="setdriver"/>
+        </methods>
+      </class> <!-- TestScript.Flipkart.FlipkartSearchInvaliditem_AUT24 -->
+    </classes>
+  </test> <!-- TestScript.TestSuite.Flipkart.FlipkartSearchInvaliditem_AUT24_1_chrome(failed) -->
+</suite> <!-- Failed suite [TestSuiteFlipkart] -->

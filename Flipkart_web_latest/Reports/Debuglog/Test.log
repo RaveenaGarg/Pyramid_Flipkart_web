@@ -1,0 +1,14 @@
+29/11 13:14:41 [util.ReadProperty.propfile:40] - Project variable read successfully.
+29/11 13:14:41 [Execution.Launcher.main:61] - Reading Config File.
+29/11 13:14:42 [util.ExcelRead.exlDictionary:535] - Dictionary created successfully of Config/Config.xlsx.
+29/11 13:14:42 [Execution.Launcher.main:74] - Reading TestSuite.
+29/11 13:14:42 [util.ExcelRead.exlReadTestSuite:643] - Test Suite file "TestSuite" readed successfully.
+29/11 13:14:42 [Execution.Launcher.main:83] - Creatig testng.xml
+29/11 13:14:42 [util.CreateTestNGFile.TestNGFile:171] - TestSuite/SuiteFiles/ file created successfully.
+29/11 13:14:43 [util.ExcelRead.TestSuiteUpdate:382] - Error while reseting TestSuite
+29/11 13:14:43 [util.ExcelRead.UpdateExcel:79] - MasterTestData_QA.xlsx reset Sucessfully.
+29/11 13:14:43 [Execution.Launcher.main:87] - Reading CommonValues from MasterTestData.
+29/11 13:14:43 [util.ExcelRead.exlDictionary:535] - Dictionary created successfully of Data/TestData/MasterTestData_QA.xlsx.
+29/11 13:14:46 [util.ExcelRead.exlReadMatserTestData:770] - Data against Testcase  "Flipkart.FlipkartSearchInvaliditem_AUT24_1" is readed successfully.
+29/11 13:14:47 [Execution.Launcher.main:144] - Problem while executing test cases from testng.xml. Error is null
+29/11 13:14:47 [Execution.Launcher.main:161] - Error while creating report null

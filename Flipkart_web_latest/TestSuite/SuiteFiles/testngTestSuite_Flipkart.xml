@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteFlipkart" parallel ="tests" thread-count ="1">
+	<parameter name ="Browser" value ="Chrome"/>
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>		
+	</listeners>
+		<test name="TestScript.TestSuite.Flipkart.FlipkartSearchInvaliditem_AUT24_1_chrome">
+		<parameter name ="Browser" value ="chrome"/>
+		<parameter name ="iteration" value ="1"/>
+		<classes> <class name="TestScript.Flipkart.FlipkartSearchInvaliditem_AUT24"/></classes>
+	</test> <!-- Test -->	
+
+</suite> <!-- Suite -->
